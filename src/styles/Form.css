@@ -1,0 +1,199 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+} */
+
+/* html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+label {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.3rem;
+} */
+.banner {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.card {
+  /* border: 2px solid red; */
+  padding: 10px;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 16px 16px;
+}
+
+.price {
+  margin: 10px;
+}
+
+.btn {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 5px;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.btn:hover {
+  border-color: rgba(0, 157, 254, 0.15);
+  box-shadow: rgba(0, 140, 255, 0.1) 0 8px 16px;
+  color: rgba(1, 148, 247, 0.918);
+  transform: translateY(-1px);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.pg-btn {
+  background-color: black;
+  color: white;
+}
+
+.pg-btn:hover {
+  border-color: rgba(0, 157, 254, 0.15);
+  box-shadow: rgba(0, 140, 255, 0.1) 0 8px 16px;
+  color: rgba(193, 193, 193, 0.918);
+  transform: translateY(-1px);
+}
+.btn-active {
+  background-color: white;
+  color: black;
+}
+.product-img {
+  display: block;
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+}
+
+.product-img:hover {
+  transform: scale(0.8);
+}
+*/ .header-form {
+  margin-bottom: 20px;
+}
+.header-form p {
+  margin-top: 5px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efedee;
+  margin: 50px;
+}
+
+.left {
+  flex: 1.5;
+  margin: 30px 50px;
+}
+
+.right {
+  flex: 2;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+}
+.inputfield {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.inputfield input {
+  outline: 0;
+  border: 0;
+  margin: 6px 0;
+  padding: 4px;
+  font-size: 12px;
+}
+
+.inputfield:focus-within {
+  border-color: #8c7569;
+}
+
+.inputfield:focus-within label {
+  color: rgba(69, 52, 42, 0.8);
+}
+
+.inputfield input::placeholder {
+  color: #ccc;
+  opacity: 1;
+  font-size: 14px;
+}
+
+.form-btn {
+  padding: 1.2rem 3.2rem;
+  margin-top: 1.2rem;
+  outline: none;
+  text-transform: uppercase;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+  background: #000000;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.form-btn :hover {
+  background: rgb(53, 49, 49);
+}
+
+@media (max-width: 750px) {
+  .container {
+    max-width: 90vw;
+  }
+
+  .right {
+    display: none;
+  }
+}

@@ -1,0 +1,39 @@
+/* .banner {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.grid-container {
+  display: grid;
+  gap: 50px 50px;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.product-box {
+  margin-bottom: 3rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #fff;
+}
+
+.product-img:hover {
+  transform: scale(1.1);
+}
+
+.product-img {
+  border: 2px solid red;
+  display: block;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+}
+
+.product-img:hover {
+  transform: scale(1.1);
+} */
+/* .product-img img {
+  transition: all 1s;
+} */
